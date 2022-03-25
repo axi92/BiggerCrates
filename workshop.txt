@@ -1,0 +1,9 @@
+version=0.1
+title=Bigger Crates
+description=[h1]Bigger Crates Test Mod[/h1]
+
+Workshop ID: ?
+Mod ID: BiggerCrates
+
+tags=Build 41;Building;Multiplayer
+visibility=public
