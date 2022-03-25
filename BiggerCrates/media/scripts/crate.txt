@@ -1,0 +1,28 @@
+/** This line is a comment. anything inside these brackets is ignored **/
+module BiggerCrates {
+    imports {
+        Base
+    }
+    /** Comments can be multiline like this
+        and can appear anywhere in the file, even in the
+        middle of a { block }
+    **/
+    item BigCrate
+    {
+        Type         = Container,
+        DisplayName  = Big Crate,
+        DisplayCategory = Container,
+        Icon         = MyIcon,
+        Weight       = 7.5,
+    }
+
+  recipe Construct Big Crate
+  {
+      Plank=12,
+      Nails=24.
+      keep Hammer/HammerStone/BallPeenHammer,
+      Result:BigCrate,
+      Sound:PZ_Hammer,
+      Time:500.0
+  }
+}
